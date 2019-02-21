@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27DC134B077EA1DA51DE0822 /* Pods_QiitaViewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0C2DD55A1B33D14E12CE28 /* Pods_QiitaViewerTests.framework */; };
+		4008F0AB3A8DD92F9C13C7F7 /* Pods_QiitaViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD354F40B16F3FE67D593A8 /* Pods_QiitaViewer.framework */; };
+		EBEDFCD76F251128D8EB04DD /* Pods_QiitaViewerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB21923846664F3ECA47C5B2 /* Pods_QiitaViewerUITests.framework */; };
 		F0A5A1C6221E623C002C6D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5A1C5221E623C002C6D59 /* AppDelegate.swift */; };
 		F0A5A1C8221E623C002C6D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5A1C7221E623C002C6D59 /* ViewController.swift */; };
 		F0A5A1CB221E623C002C6D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A5A1C9221E623C002C6D59 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		F0A5A1D0221E623D002C6D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A5A1CE221E623D002C6D59 /* LaunchScreen.storyboard */; };
 		F0A5A1DB221E623D002C6D59 /* QiitaViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5A1DA221E623D002C6D59 /* QiitaViewerTests.swift */; };
 		F0A5A1E6221E623D002C6D59 /* QiitaViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5A1E5221E623D002C6D59 /* QiitaViewerUITests.swift */; };
+		F0A5A1F5221E62D0002C6D59 /* QiitaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5A1F3221E62D0002C6D59 /* QiitaCell.swift */; };
+		F0A5A1F6221E62D0002C6D59 /* QiitaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0A5A1F4221E62D0002C6D59 /* QiitaCell.xib */; };
+		F0D13502221E71230060B45F /* Qiita.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D13501221E71230060B45F /* Qiita.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19119E5088C4548A8776D5C1 /* Pods-QiitaViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaViewer/Pods-QiitaViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		456DF9EE17F4E4436A4549B5 /* Pods-QiitaViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaViewerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaViewerUITests/Pods-QiitaViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD354F40B16F3FE67D593A8 /* Pods_QiitaViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiitaViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5994AEC68E117CEEF9CCEADB /* Pods-QiitaViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaViewerTests/Pods-QiitaViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		766E774F84CA763646A16E27 /* Pods-QiitaViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaViewer/Pods-QiitaViewer.release.xcconfig"; sourceTree = "<group>"; };
+		82BB189972B4FAC4F9DE0035 /* Pods-QiitaViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaViewerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaViewerUITests/Pods-QiitaViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8628787C52D97DBBB73590A /* Pods-QiitaViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaViewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaViewerTests/Pods-QiitaViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB21923846664F3ECA47C5B2 /* Pods_QiitaViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiitaViewerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0C2DD55A1B33D14E12CE28 /* Pods_QiitaViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiitaViewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A5A1C2221E623C002C6D59 /* QiitaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A5A1C5221E623C002C6D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0A5A1C7221E623C002C6D59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		F0A5A1E1221E623D002C6D59 /* QiitaViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiitaViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A5A1E5221E623D002C6D59 /* QiitaViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaViewerUITests.swift; sourceTree = "<group>"; };
 		F0A5A1E7221E623D002C6D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A5A1F3221E62D0002C6D59 /* QiitaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaCell.swift; sourceTree = "<group>"; };
+		F0A5A1F4221E62D0002C6D59 /* QiitaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QiitaCell.xib; sourceTree = "<group>"; };
+		F0D13501221E71230060B45F /* Qiita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qiita.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4008F0AB3A8DD92F9C13C7F7 /* Pods_QiitaViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DC134B077EA1DA51DE0822 /* Pods_QiitaViewerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBEDFCD76F251128D8EB04DD /* Pods_QiitaViewerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C6B2917CC5697A05BE5B785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19119E5088C4548A8776D5C1 /* Pods-QiitaViewer.debug.xcconfig */,
+				766E774F84CA763646A16E27 /* Pods-QiitaViewer.release.xcconfig */,
+				5994AEC68E117CEEF9CCEADB /* Pods-QiitaViewerTests.debug.xcconfig */,
+				A8628787C52D97DBBB73590A /* Pods-QiitaViewerTests.release.xcconfig */,
+				456DF9EE17F4E4436A4549B5 /* Pods-QiitaViewerUITests.debug.xcconfig */,
+				82BB189972B4FAC4F9DE0035 /* Pods-QiitaViewerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA69384A4BB3E2FB36F0CC3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BD354F40B16F3FE67D593A8 /* Pods_QiitaViewer.framework */,
+				BC0C2DD55A1B33D14E12CE28 /* Pods_QiitaViewerTests.framework */,
+				BB21923846664F3ECA47C5B2 /* Pods_QiitaViewerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F0A5A1B9221E623C002C6D59 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				F0A5A1D9221E623D002C6D59 /* QiitaViewerTests */,
 				F0A5A1E4221E623D002C6D59 /* QiitaViewerUITests */,
 				F0A5A1C3221E623C002C6D59 /* Products */,
+				4C6B2917CC5697A05BE5B785 /* Pods */,
+				EA69384A4BB3E2FB36F0CC3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +149,9 @@
 				F0A5A1CC221E623D002C6D59 /* Assets.xcassets */,
 				F0A5A1CE221E623D002C6D59 /* LaunchScreen.storyboard */,
 				F0A5A1D1221E623D002C6D59 /* Info.plist */,
+				F0A5A1F3221E62D0002C6D59 /* QiitaCell.swift */,
+				F0A5A1F4221E62D0002C6D59 /* QiitaCell.xib */,
+				F0D13501221E71230060B45F /* Qiita.swift */,
 			);
 			path = QiitaViewer;
 			sourceTree = "<group>";
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0A5A1EA221E623D002C6D59 /* Build configuration list for PBXNativeTarget "QiitaViewer" */;
 			buildPhases = (
+				0A307BE7DD3F9D0E3886D712 /* [CP] Check Pods Manifest.lock */,
 				F0A5A1BE221E623C002C6D59 /* Sources */,
 				F0A5A1BF221E623C002C6D59 /* Frameworks */,
 				F0A5A1C0221E623C002C6D59 /* Resources */,
+				F822509BF43552B04F0753C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0A5A1ED221E623D002C6D59 /* Build configuration list for PBXNativeTarget "QiitaViewerTests" */;
 			buildPhases = (
+				B6F2D6EA37EC03F3B25982ED /* [CP] Check Pods Manifest.lock */,
 				F0A5A1D2221E623D002C6D59 /* Sources */,
 				F0A5A1D3221E623D002C6D59 /* Frameworks */,
 				F0A5A1D4221E623D002C6D59 /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0A5A1F0221E623D002C6D59 /* Build configuration list for PBXNativeTarget "QiitaViewerUITests" */;
 			buildPhases = (
+				F5B06D9AB1C2082E653D18FC /* [CP] Check Pods Manifest.lock */,
 				F0A5A1DD221E623D002C6D59 /* Sources */,
 				F0A5A1DE221E623D002C6D59 /* Frameworks */,
 				F0A5A1DF221E623D002C6D59 /* Resources */,
@@ -231,6 +284,7 @@
 			files = (
 				F0A5A1D0221E623D002C6D59 /* LaunchScreen.storyboard in Resources */,
 				F0A5A1CD221E623D002C6D59 /* Assets.xcassets in Resources */,
+				F0A5A1F6221E62D0002C6D59 /* QiitaCell.xib in Resources */,
 				F0A5A1CB221E623C002C6D59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +305,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A307BE7DD3F9D0E3886D712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiitaViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6F2D6EA37EC03F3B25982ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiitaViewerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B06D9AB1C2082E653D18FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiitaViewerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F822509BF43552B04F0753C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QiitaViewer/Pods-QiitaViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiitaViewer/Pods-QiitaViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F0A5A1BE221E623C002C6D59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F0A5A1C8221E623C002C6D59 /* ViewController.swift in Sources */,
+				F0A5A1F5221E62D0002C6D59 /* QiitaCell.swift in Sources */,
+				F0D13502221E71230060B45F /* Qiita.swift in Sources */,
 				F0A5A1C6221E623C002C6D59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,9 +579,11 @@
 		};
 		F0A5A1EB221E623D002C6D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19119E5088C4548A8776D5C1 /* Pods-QiitaViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F8S2G56PC;
 				INFOPLIST_FILE = QiitaViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +598,11 @@
 		};
 		F0A5A1EC221E623D002C6D59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766E774F84CA763646A16E27 /* Pods-QiitaViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F8S2G56PC;
 				INFOPLIST_FILE = QiitaViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +617,7 @@
 		};
 		F0A5A1EE221E623D002C6D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5994AEC68E117CEEF9CCEADB /* Pods-QiitaViewerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +638,7 @@
 		};
 		F0A5A1EF221E623D002C6D59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8628787C52D97DBBB73590A /* Pods-QiitaViewerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +659,7 @@
 		};
 		F0A5A1F1221E623D002C6D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456DF9EE17F4E4436A4549B5 /* Pods-QiitaViewerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +679,7 @@
 		};
 		F0A5A1F2221E623D002C6D59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BB189972B4FAC4F9DE0035 /* Pods-QiitaViewerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
